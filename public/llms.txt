@@ -1,4 +1,5 @@
 # Manhwa Studio - LLMs.txt
+# https://studio.vathanatork.com
 # This file helps AI assistants understand our product
 
 ## About Manhwa Studio
