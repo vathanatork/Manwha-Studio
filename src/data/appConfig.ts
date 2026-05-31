@@ -65,12 +65,15 @@ export const app = {
 
 // --------------------------------------------
 // DOWNLOAD PATHS
-// Update version.current above and paths auto-update
+// For Google Drive: Use direct download link format
+// From: https://drive.google.com/file/d/FILE_ID/view?usp=drive_link
+// To:   https://drive.google.com/uc?export=download&id=FILE_ID
 // --------------------------------------------
 export const downloads = {
-  windows: `/releases/${app.filePrefix}-Setup-${version.current}.exe`,
-  mac: `/releases/${app.filePrefix}-${version.current}.dmg`,
-  linux: `/releases/${app.filePrefix}-${version.current}.AppImage`,
+  // Google Drive direct download link
+  windows: 'https://drive.google.com/uc?export=download&id=16KFZJSZnFz2PnSc3y-kvGhEicIp5Bjso',
+  mac: null as string | null, // Not available yet
+  linux: null as string | null, // Not available yet
 };
 
 // --------------------------------------------

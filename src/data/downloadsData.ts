@@ -31,7 +31,7 @@ export const downloads: DownloadConfig[] = [
     platform: 'windows',
     name: 'Windows',
     fileType: 'Installer',
-    fileSize: '85 MB',
+    fileSize: '116 MB',
     downloadUrl: downloadPaths.windows,
     isAvailable: true,
   },
@@ -40,7 +40,7 @@ export const downloads: DownloadConfig[] = [
     name: 'macOS',
     fileType: 'DMG',
     fileSize: '90 MB',
-    downloadUrl: null, // Set to downloadPaths.mac when released
+    downloadUrl: downloadPaths.mac,
     isAvailable: false,
   },
   {
@@ -48,7 +48,7 @@ export const downloads: DownloadConfig[] = [
     name: 'Linux',
     fileType: 'AppImage',
     fileSize: '88 MB',
-    downloadUrl: null, // Set to downloadPaths.linux when released
+    downloadUrl: downloadPaths.linux,
     isAvailable: false,
   },
 ];
