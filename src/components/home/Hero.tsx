@@ -23,7 +23,7 @@ const heroMedia = {
   videoId: null as string | null,
 
   // Alt text for accessibility
-  alt: 'Manhwa Studio - Professional manga panel detection and editing tool',
+  alt: 'Manhwa Studio - Create manga recap videos for YouTube',
 };
 
 export function Hero() {
@@ -50,14 +50,15 @@ export function Hero() {
           </Badge>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4 md:mb-6 leading-tight">
-            The Professional Tool for{" "}
+            Create{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-purple-500">
-              Manga & Manhwa Creators
+              Manga Recap Videos
             </span>
+            {" "}for YouTube
           </h1>
 
           <p className="text-base md:text-lg lg:text-xl text-text-secondary mb-6 md:mb-8 max-w-2xl mx-auto">
-            Download from multiple sources, auto-detect panels, edit with precision, and export to any format. Built for content creators who demand quality.
+            Download chapters, auto-detect panels, add transitions, and export to MP4 in minutes. The fastest way to create manga and manhwa recap content.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 mb-8 md:mb-12">

@@ -4,24 +4,32 @@
 
 ## About Manhwa Studio
 
-Manhwa Studio is a free desktop application for Windows that helps manga and manhwa creators download, edit, and export comic panels.
+Manhwa Studio is the fastest way to create manga and manhwa recap videos for YouTube. Download chapters, auto-detect panels, add transitions, and export directly to MP4 - all in minutes.
 
 ## Key Features
 
-- **Multi-Source Download**: Download manga/manhwa from MangaDex, AsuraScans, MangaPark, and ManhwaRead
-- **Auto Panel Detection**: Automatically detects and splits long comic strips into individual panels
-- **Panel Editor**: Professional editing tools including crop, split, text overlay, brush/eraser, and shapes
-- **Multiple Export Formats**: Export to PNG images, PDF, CBZ (comic book archive), or MP4 video
-- **Video Creation**: Built-in video generator for YouTube recap videos with transitions and custom timing
-- **Batch Processing**: Download multiple chapters at once
-- **Project System**: Save and manage multiple projects locally on your computer
+- **Batch Chapter Downloads**: Download chapters 1-50+ in one click from MangaDex, AsuraScans, MangaPark, and more
+- **Auto Panel Detection**: AI-powered algorithm splits long-strip manhwa into individual panels automatically
+- **Direct Video Export**: Export to YouTube-ready MP4 in 1080p or 4K resolution
+- **Smooth Transitions**: Add fade transitions between panels with custom timing
+- **No Video Editor Needed**: Built-in video generator - skip Premiere Pro or DaVinci Resolve
+- **Save Hours of Work**: What takes 2+ hours manually takes 10 minutes with Manhwa Studio
 
-## Use Cases
+## Primary Use Case: YouTube Recap Videos
 
-1. **YouTube Recap Creators**: Download chapters, select panels, and generate videos with transitions
-2. **Fan Translators**: Use brush tool to cover original text, add translated text overlays
-3. **Archive Collectors**: Download and organize manga collections in PDF or CBZ format
-4. **Content Creators**: Create social media content from manga panels
+Manhwa Studio is built specifically for YouTube creators who make manga/manhwa recap content:
+1. Download multiple chapters at once (e.g., chapters 1-20)
+2. Auto-detect and split panels from long strips
+3. Select which panels to include in the video
+4. Set timing per panel (e.g., 3 seconds each)
+5. Add fade transitions
+6. Export directly to MP4 for YouTube upload
+
+## Secondary Use Cases
+
+- **Fan Translators**: Cover original text with brush tool, add translated text overlays
+- **Archive Collectors**: Export to PDF or CBZ format
+- **Social Media Content**: Export panels as images for Instagram, Twitter, TikTok
 
 ## Pricing
 

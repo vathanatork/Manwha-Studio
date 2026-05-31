@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Grid2X2, Download, Edit3, FileText, Folder } from 'lucide-react';
+import { Grid2X2, Download, Video, Film, Clock } from 'lucide-react';
 import { Section, SectionHeader } from '../ui';
 
 // ============================================
@@ -60,8 +60,8 @@ export function Features() {
     <Section id="features" background="secondary">
       <SectionHeader
         badge="Features"
-        title="Everything You Need to Create"
-        description="Professional-grade tools designed for manga and manhwa content creators"
+        title="From Chapter to Video in Minutes"
+        description="Everything you need to create engaging manga recap videos for YouTube"
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -94,42 +94,42 @@ export function Features() {
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
             <Download className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Multi-Source Downloads</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Batch Chapter Downloads</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            Download from MangaDex, AsuraScans, MangaPark, and 10+ other sources. Batch download entire series with one click.
+            Download chapters 1-50 in one click from MangaDex, AsuraScans, MangaPark & more. Perfect for binge recap videos.
           </p>
         </div>
 
-        {/* Professional Editor */}
+        {/* Direct Video Export */}
         <div className="bg-bg-card border border-border rounded-2xl p-6 md:p-8 hover:bg-bg-tertiary hover:border-border-light transition-all duration-300 hover:-translate-y-1 animate-on-scroll">
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
-            <Edit3 className="w-6 h-6 md:w-8 md:h-8 text-accent" />
+            <Video className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Professional Editor</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Direct MP4 Export</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            Crop, split, reorder, and annotate panels. Add text overlays, brush strokes, and shapes with our Photoshop-inspired interface.
+            Export directly to YouTube-ready MP4. Choose 1080p or 4K resolution. No video editing software needed.
           </p>
         </div>
 
-        {/* Multiple Export Formats */}
+        {/* Transitions */}
         <div className="bg-bg-card border border-border rounded-2xl p-6 md:p-8 hover:bg-bg-tertiary hover:border-border-light transition-all duration-300 hover:-translate-y-1 animate-on-scroll">
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
-            <FileText className="w-6 h-6 md:w-8 md:h-8 text-accent" />
+            <Film className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Multiple Export Formats</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Smooth Transitions</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            Export to PNG/JPG images, PDF for printing, CBZ for comic readers, or video frames for social media content.
+            Add fade transitions between panels. Set custom timing per panel. Make your recaps look professional.
           </p>
         </div>
 
-        {/* Project Management */}
+        {/* Speed */}
         <div className="bg-bg-card border border-border rounded-2xl p-6 md:p-8 hover:bg-bg-tertiary hover:border-border-light transition-all duration-300 hover:-translate-y-1 animate-on-scroll">
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
-            <Folder className="w-6 h-6 md:w-8 md:h-8 text-accent" />
+            <Clock className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Project Management</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Save Hours of Work</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            Organize your work into projects. Auto-save ensures you never lose progress. Pick up right where you left off.
+            What takes 2+ hours manually takes 10 minutes with Manhwa Studio. Focus on content, not tedious editing.
           </p>
         </div>
       </div>
