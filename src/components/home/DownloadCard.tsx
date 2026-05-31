@@ -1,5 +1,5 @@
 import type { LucideProps } from 'lucide-react';
-import { ComponentType } from 'react';
+import type { ComponentType } from 'react';
 import { Card, Button } from '../ui';
 
 interface DownloadCardProps {

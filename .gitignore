@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Release files (too large for GitHub - host elsewhere)
+public/releases/*.exe
+public/releases/*.dmg
+public/releases/*.AppImage
+public/releases/*.deb
+*.exe
+*.dmg
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
