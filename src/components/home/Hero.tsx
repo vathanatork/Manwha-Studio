@@ -54,11 +54,11 @@ export function Hero() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-purple-500">
               Manga Recap Videos
             </span>
-            {" "}for YouTube
+            {" "}in Minutes
           </h1>
 
           <p className="text-base md:text-lg lg:text-xl text-text-secondary mb-6 md:mb-8 max-w-2xl mx-auto">
-            Download chapters, auto-detect panels, add transitions, and export to MP4 in minutes. The fastest way to create manga and manhwa recap content.
+            Download chapters, auto-detect panels, and export video-ready frames. The fastest way to create manga and manhwa recap content.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 mb-8 md:mb-12">
