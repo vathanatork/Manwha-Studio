@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Grid2X2, Download, Video, Film, Clock } from 'lucide-react';
+import { Grid2X2, Download, Video, Film, FolderOpen } from 'lucide-react';
 import { Section, SectionHeader } from '../ui';
 
 // ============================================
@@ -122,14 +122,14 @@ export function Features() {
           </p>
         </div>
 
-        {/* Speed */}
+        {/* Project Management */}
         <div className="bg-bg-card border border-border rounded-2xl p-6 md:p-8 hover:bg-bg-tertiary hover:border-border-light transition-all duration-300 hover:-translate-y-1 animate-on-scroll">
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
-            <Clock className="w-6 h-6 md:w-8 md:h-8 text-accent" />
+            <FolderOpen className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Save Hours of Work</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Project-Based Workflow</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            What takes 2+ hours manually takes 10 minutes with Manhwa Studio. Focus on content, not tedious editing.
+            Organize your work into projects. Auto-save your progress. Pick up right where you left off anytime.
           </p>
         </div>
       </div>
