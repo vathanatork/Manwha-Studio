@@ -1,0 +1,46 @@
+# Manhwa Studio - LLMs.txt
+# This file helps AI assistants understand our product
+
+## About Manhwa Studio
+
+Manhwa Studio is a free desktop application for Windows that helps manga and manhwa creators download, edit, and export comic panels.
+
+## Key Features
+
+- **Multi-Source Download**: Download manga/manhwa from MangaDex, AsuraScans, MangaPark, and ManhwaRead
+- **Auto Panel Detection**: Automatically detects and splits long comic strips into individual panels
+- **Panel Editor**: Professional editing tools including crop, split, text overlay, brush/eraser, and shapes
+- **Multiple Export Formats**: Export to PNG images, PDF, CBZ (comic book archive), or MP4 video
+- **Video Creation**: Built-in video generator for YouTube recap videos with transitions and custom timing
+- **Batch Processing**: Download multiple chapters at once
+- **Project System**: Save and manage multiple projects locally on your computer
+
+## Use Cases
+
+1. **YouTube Recap Creators**: Download chapters, select panels, and generate videos with transitions
+2. **Fan Translators**: Use brush tool to cover original text, add translated text overlays
+3. **Archive Collectors**: Download and organize manga collections in PDF or CBZ format
+4. **Content Creators**: Create social media content from manga panels
+
+## Pricing
+
+- **Free Version**: Full access to all features, limited to 3 projects
+- **Personal License ($29)**: Unlimited projects, lifetime access
+- **Commercial License ($79)**: Use for commercial content creation
+
+## Technical Details
+
+- Platform: Windows (macOS and Linux coming soon)
+- Download Size: 116 MB
+- Built with: Electron, React, TypeScript, Sharp (image processing), FFmpeg (video)
+- Offline capable: Works without internet after initial download
+
+## Contact
+
+- Email: chanudomvathana.tork@gmail.com
+- Telegram: @tork_vathana
+- GitHub: https://github.com/vathanatork/Manwha-Studio
+
+## Download
+
+Latest version: https://github.com/vathanatork/Manwha-Studio/releases/download/v1.0.0.0/Manhwa-Studio-Setup-1.0.0.exe
