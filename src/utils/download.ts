@@ -9,12 +9,8 @@ export function triggerDownload() {
   const availableDownload = downloads.find(d => d.isAvailable && d.downloadUrl);
 
   if (availableDownload && availableDownload.downloadUrl) {
-    const link = document.createElement('a');
-    link.href = availableDownload.downloadUrl;
-    link.download = '';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Open in new tab for external links (Google Drive, etc.)
+    window.open(availableDownload.downloadUrl, '_blank', 'noopener,noreferrer');
   } else {
     // Fallback: scroll to download section if no download available
     const downloadSection = document.getElementById('download');

@@ -65,13 +65,12 @@ export const app = {
 
 // --------------------------------------------
 // DOWNLOAD PATHS
-// For Google Drive: Use direct download link format
-// From: https://drive.google.com/file/d/FILE_ID/view?usp=drive_link
-// To:   https://drive.google.com/uc?export=download&id=FILE_ID
+// For large files on Google Drive, link directly to the preview page
+// Users will click "Download" button on Google Drive
 // --------------------------------------------
 export const downloads = {
-  // Google Drive direct download link
-  windows: 'https://drive.google.com/uc?export=download&id=16KFZJSZnFz2PnSc3y-kvGhEicIp5Bjso',
+  // Google Drive share link (opens in new tab, user clicks download)
+  windows: 'https://drive.google.com/file/d/16KFZJSZnFz2PnSc3y-kvGhEicIp5Bjso/view?usp=sharing',
   mac: null as string | null, // Not available yet
   linux: null as string | null, // Not available yet
 };
