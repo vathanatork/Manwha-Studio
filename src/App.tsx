@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { Layout } from './components/layout';
 import { HomePage, PricingPage, DocsPage, TermsPage, PrivacyPage, LicensePage } from './pages';
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/license" element={<LicensePage />} />
         </Routes>
       </Layout>
+      <Analytics />
     </BrowserRouter>
   );
 }
