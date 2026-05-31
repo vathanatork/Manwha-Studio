@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+/* Custom theme colors */
+@theme {
+  --color-bg-primary: #0d1117;
+  --color-bg-secondary: #161b22;
+  --color-bg-card: #1c2128;
+  --color-bg-tertiary: #21262d;
+  --color-border: #30363d;
+  --color-border-light: #484f58;
+  --color-accent: #2c7be5;
+  --color-accent-light: #58a6ff;
+  --color-accent-glow: rgba(44, 123, 229, 0.3);
+  --color-success: #58c97a;
+  --color-warning: #f1a13a;
+  --color-text-primary: #f0f6fc;
+  --color-text-secondary: #8b949e;
+  --color-text-muted: #6e7681;
+}
+
+/* Base styles */
+body {
+  margin: 0;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-light);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Progress animation for How It Works section */
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.animate-progress {
+  animation: progress 2s ease-in-out infinite;
+}
+
+/* Scroll animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+/* Stagger animation delays for grid items */
+.animate-on-scroll:nth-child(1) { animation-delay: 0ms; }
+.animate-on-scroll:nth-child(2) { animation-delay: 100ms; }
+.animate-on-scroll:nth-child(3) { animation-delay: 200ms; }
+.animate-on-scroll:nth-child(4) { animation-delay: 300ms; }
+.animate-on-scroll:nth-child(5) { animation-delay: 400ms; }
+.animate-on-scroll:nth-child(6) { animation-delay: 500ms; }
+
+/* Responsive adjustments for How It Works steps */
+@media (max-width: 768px) {
+  .grid-cols-\[48px_1fr_200px\] {
+    grid-template-columns: 48px 1fr !important;
+  }
+}

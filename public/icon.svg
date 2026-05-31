@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ftile" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"></stop>
+      <stop offset="0.55" stop-color="#7c3aed"></stop>
+      <stop offset="1" stop-color="#a855f7"></stop>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="116" fill="url(#ftile)"></rect>
+  
+  <rect x="146" y="104" width="220" height="84" rx="18" fill="#ffffff"></rect>
+  <rect x="146" y="214" width="220" height="84" rx="18" fill="#ffffff"></rect>
+  <rect x="146" y="324" width="220" height="84" rx="18" fill="#ffffff"></rect>
+  
+  <rect x="120" y="192" width="272" height="18" rx="9" fill="#f59e0b"></rect>
+</svg>
