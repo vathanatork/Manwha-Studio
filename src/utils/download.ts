@@ -9,8 +9,8 @@ export function triggerDownload() {
   const availableDownload = downloads.find(d => d.isAvailable && d.downloadUrl);
 
   if (availableDownload && availableDownload.downloadUrl) {
-    // Open in new tab for external links (Google Drive, etc.)
-    window.open(availableDownload.downloadUrl, '_blank', 'noopener,noreferrer');
+    // Direct download from GitHub Releases
+    window.location.href = availableDownload.downloadUrl;
   } else {
     // Fallback: scroll to download section if no download available
     const downloadSection = document.getElementById('download');

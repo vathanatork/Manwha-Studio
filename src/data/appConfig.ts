@@ -65,12 +65,10 @@ export const app = {
 
 // --------------------------------------------
 // DOWNLOAD PATHS
-// For large files on Google Drive, link directly to the preview page
-// Users will click "Download" button on Google Drive
+// GitHub Releases - direct download links
 // --------------------------------------------
 export const downloads = {
-  // Google Drive share link (opens in new tab, user clicks download)
-  windows: 'https://drive.google.com/file/d/16KFZJSZnFz2PnSc3y-kvGhEicIp5Bjso/view?usp=sharing',
+  windows: 'https://github.com/vathanatork/Manwha-Studio/releases/download/v1.0.0.0/Manhwa-Studio-Setup-1.0.0.exe',
   mac: null as string | null, // Not available yet
   linux: null as string | null, // Not available yet
 };
