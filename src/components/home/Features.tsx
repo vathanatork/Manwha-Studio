@@ -100,25 +100,25 @@ export function Features() {
           </p>
         </div>
 
-        {/* Direct Video Export */}
+        {/* Video Frame Export */}
         <div className="bg-bg-card border border-border rounded-2xl p-6 md:p-8 hover:bg-bg-tertiary hover:border-border-light transition-all duration-300 hover:-translate-y-1 animate-on-scroll">
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
             <Video className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Direct MP4 Export</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Video-Ready Frames</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            Export directly to YouTube-ready MP4. Choose 1080p or 4K resolution. No video editing software needed.
+            Export panels as numbered frames in 1080p or 4K. Ready to import into Premiere Pro, DaVinci, or CapCut.
           </p>
         </div>
 
-        {/* Transitions */}
+        {/* Multiple Formats */}
         <div className="bg-bg-card border border-border rounded-2xl p-6 md:p-8 hover:bg-bg-tertiary hover:border-border-light transition-all duration-300 hover:-translate-y-1 animate-on-scroll">
           <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-accent/10 rounded-xl mb-4 md:mb-5">
             <Film className="w-6 h-6 md:w-8 md:h-8 text-accent" />
           </div>
-          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Smooth Transitions</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Multiple Export Formats</h3>
           <p className="text-text-secondary text-sm md:text-[15px] leading-relaxed">
-            Add fade transitions between panels. Set custom timing per panel. Make your recaps look professional.
+            Export to PNG images, PDF for reading, CBZ for comic apps, or video frames for YouTube content.
           </p>
         </div>
 

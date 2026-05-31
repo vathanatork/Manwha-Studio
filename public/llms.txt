@@ -4,15 +4,15 @@
 
 ## About Manhwa Studio
 
-Manhwa Studio is the fastest way to create manga and manhwa recap videos for YouTube. Download chapters, auto-detect panels, add transitions, and export directly to MP4 - all in minutes.
+Manhwa Studio is the fastest way to create manga and manhwa recap videos for YouTube. Download chapters, auto-detect panels, and export video-ready frames in 1080p or 4K.
 
 ## Key Features
 
 - **Batch Chapter Downloads**: Download chapters 1-50+ in one click from MangaDex, AsuraScans, MangaPark, and more
 - **Auto Panel Detection**: AI-powered algorithm splits long-strip manhwa into individual panels automatically
-- **Direct Video Export**: Export to YouTube-ready MP4 in 1080p or 4K resolution
-- **Smooth Transitions**: Add fade transitions between panels with custom timing
-- **No Video Editor Needed**: Built-in video generator - skip Premiere Pro or DaVinci Resolve
+- **Video Frame Export**: Export panels as sequentially numbered frames (1080p or 4K) ready for video editing
+- **Panel Editor**: Crop, split, reorder panels. Add text overlays and brush strokes
+- **Multiple Export Formats**: Export to PNG images, PDF, CBZ, or video frames
 - **Save Hours of Work**: What takes 2+ hours manually takes 10 minutes with Manhwa Studio
 
 ## Primary Use Case: YouTube Recap Videos
@@ -20,10 +20,10 @@ Manhwa Studio is the fastest way to create manga and manhwa recap videos for You
 Manhwa Studio is built specifically for YouTube creators who make manga/manhwa recap content:
 1. Download multiple chapters at once (e.g., chapters 1-20)
 2. Auto-detect and split panels from long strips
-3. Select which panels to include in the video
-4. Set timing per panel (e.g., 3 seconds each)
-5. Add fade transitions
-6. Export directly to MP4 for YouTube upload
+3. Select which panels to include
+4. Export as numbered video frames (frame_00001.jpg, frame_00002.jpg, etc.)
+5. Import frames into your video editor (Premiere Pro, DaVinci Resolve, CapCut, etc.)
+6. Add transitions, music, and effects in your video editor
 
 ## Secondary Use Cases
 
@@ -41,7 +41,7 @@ Manhwa Studio is built specifically for YouTube creators who make manga/manhwa r
 
 - Platform: Windows (macOS and Linux coming soon)
 - Download Size: 116 MB
-- Built with: Electron, React, TypeScript, Sharp (image processing), FFmpeg (video)
+- Built with: Electron, React, TypeScript, Sharp (image processing)
 - Offline capable: Works without internet after initial download
 
 ## Contact
